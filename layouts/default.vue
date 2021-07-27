@@ -4,8 +4,10 @@
       :clipped-left="clipped"
       fixed
       app
+      color="primary"
+      dark
     >
-      <v-toolbar-title v-text="title" />
+      <nuxt-link class="dark-link"  to="/">{{title}}</nuxt-link>
       <v-spacer />
    
       <nuxt-link class="dark-link" to="/annuaire">Annuaire</nuxt-link>
@@ -53,3 +55,12 @@ export default {
   }
 }
 </script>
+
+
+<style>
+  .dark-link{
+    padding-inline: 0.5em;
+    text-decoration: none;
+    color:white !important
+  }
+</style>
