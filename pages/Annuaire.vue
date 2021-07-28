@@ -1,19 +1,10 @@
 <template>
   <div class="mt-3 px-5">
-    <h2 class="mb-5">
-      Retrouvez tous les numéros concernant la vente et location de
-      concentrateurs d'oxygène
-    </h2>
-    <v-btn class="mb-5" color="primary">
-      <a
-        class="dark-link"
-        target="_blank"
-        href="https://docs.google.com/spreadsheets/d/1a4N_yGTUOmGVFRLODbfv6NNJO7hcgdXpayRFSufj1sk/edit?usp=sharing"
-      >
-        Ajouter un numéro</a
-      ></v-btn
-    >
     <v-card>
+      <h3 class="mb-5">
+        Numéros relatifs à la vente, location et réparation des concentrateurs
+        d'oxygène.
+      </h3>
       <v-card-title>
         Annuaire
         <v-spacer></v-spacer>

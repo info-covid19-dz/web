@@ -4,7 +4,7 @@
       <v-col cols="12" justify="center" align="center">
         <h2>Contribuer à la mission</h2></v-col
       >
-      <v-col cols="12" md="8">
+      <v-col cols="12" md="10">
         <v-card min-height="350">
           <a href="mailto:mission.covid19.algerie@gmail.com">
             <v-img height="250" src="/contribute/github.jpg"></v-img>
@@ -52,6 +52,14 @@
             <v-card-title>
               Ajouter un contact pour concentrateurs d'oxygène
             </v-card-title>
+            <v-card-text>
+              <p>
+                Il est urgent de vérifier et de valider les différents numéros
+                de téléphone actuellement partagés. Nous vous invitons à entrer
+                dans les listes les numéros que vous avez testés et dont vous
+                garantissez la validité.
+              </p></v-card-text
+            >
           </v-card></a
         >
       </v-col>
@@ -77,6 +85,10 @@ export default {};
 <style  scoped>
 a {
   text-decoration: none;
+  color: black !important;
+}
+
+p {
   color: black !important;
 }
 </style>
