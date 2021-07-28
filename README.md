@@ -1,2 +1,2 @@
-# Info Covid19 Algerie
+# Info Covid19 Algérie
 
