@@ -62,8 +62,8 @@ export default {
           link: "/cagnottes",
         },
         {
-          title: "Contact",
-          link: "/contact",
+          title: "Contribuer",
+          link: "/contribuer",
         },
       ],
       miniVariant: false,

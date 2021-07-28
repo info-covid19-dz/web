@@ -1,15 +1,13 @@
 <template>
-    <div>
-
-    </div>
+  <contributions></contributions>
 </template>
 
 <script>
-    export default {
-        
-    }
+import Contributions from "../components/Contributions.vue";
+export default {
+  components: { Contributions },
+};
 </script>
 
 <style scoped>
-
 </style>

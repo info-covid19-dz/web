@@ -13,13 +13,9 @@
           >Toutes les cagnnottes actuellement ouvertes.</nuxt-link
         >
       </li>
-      <li>
-        <nuxt-link to="/contribuer"
-          >Contribuer en ajoutant des liens ou en participant à la
-          mission.</nuxt-link
-        >
-      </li>
     </ul>
+
+    <contributions />
   </div>
 </template>
 
