@@ -5,27 +5,41 @@
       concentrateurs d'oxygène
     </h2>
     <v-btn class="mb-5" color="primary">
-      <a class="dark-link"
+      <a
+        class="dark-link"
         target="_blank"
         href="https://docs.google.com/spreadsheets/d/1a4N_yGTUOmGVFRLODbfv6NNJO7hcgdXpayRFSufj1sk/edit?usp=sharing"
       >
         Ajouter un numéro</a
       ></v-btn
     >
-    <v-data-table
-      color="#470237"
-      :headers="headers"
-      :items="annuaires"
-      :items-per-page="15"
-      class="elevation-1"
-      :search="search"
+    <v-card>
+      <v-card-title>
+        Annuaire
+        <v-spacer></v-spacer>
+        <v-text-field
+          v-model="search"
+          append-icon="mdi-magnify"
+          label="Rechercher"
+          single-line
+          hide-details
+        ></v-text-field>
+      </v-card-title>
+      <v-data-table
+        color="#470237"
+        :headers="headers"
+        :items="annuaires"
+        :items-per-page="15"
+        class="elevation-1"
+        :search="search"
+      >
+        <template v-slot:item.Vérifié="{ item }">
+          <span>
+            {{ item.Vérifié ? item.Vérifié : "non" }}
+          </span>
+        </template>
+      </v-data-table></v-card
     >
-      <template v-slot:item.Vérifié="{ item }">
-        <span>
-          {{ item.Vérifié ? item.Vérifié : 'non' }}
-        </span>
-      </template>
-    </v-data-table>
   </div>
 </template>
 
