@@ -4,8 +4,8 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
   googleAnalytics: {
-    id: 'G-MDL142QE6B',
-    debugView: true,
+    id: "G-W47ZYKL84K",
+    debugView: true
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -59,7 +59,7 @@ export default {
       }
     }
   },
-
+  plugins: ["@/plugins/GoogleAnalytics"],
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
 };
