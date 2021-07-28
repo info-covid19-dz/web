@@ -4,6 +4,15 @@
       <v-col cols="12" justify="center" align="center">
         <h1>Cagnottes COVID19</h1>
         <h2>Liste des cagnottes actives</h2>
+        <v-btn class="mb-5" color="primary">
+          <a
+            class="dark-link"
+            target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1AcwL6weFDq5E3HDi883icvuah-5JFB_Yc0_32-wpX14/edit?usp=sharing"
+          >
+            Ajouter une cagnotte</a
+          ></v-btn
+        >
       </v-col>
       <v-col
         cols="12"
