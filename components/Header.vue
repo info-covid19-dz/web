@@ -4,7 +4,7 @@
       <v-container>
         <v-row justify="center" align="center">
           <v-col justify="center" align="center">
-            <h1>Info COVID19 Algérie</h1>
+            <h1>Infos Covid-19 Algérie</h1>
           </v-col>
         </v-row>
       </v-container>
@@ -31,7 +31,7 @@ header {
   padding: 1em;
 }
 
-h1{
-    margin-top:2em
+h1 {
+  margin-top: 2em;
 }
 </style>
