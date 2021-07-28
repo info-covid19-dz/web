@@ -3,12 +3,16 @@ import colors from "vuetify/es5/util/colors";
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
+  googleAnalytics: {
+    id: 'G-MDL142QE6B',
+    debugView: true,
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s - mission-02",
-    title: "mission-02",
+    titleTemplate: "Info Covid19 Algerie",
+    title: "Info Covid19 Algerie",
     htmlAttrs: {
-      lang: "en"
+      lang: "fr"
     },
     meta: [
       { charset: "utf-8" },
