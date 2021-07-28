@@ -4,28 +4,31 @@
       <v-col cols="12" justify="center" align="center">
         <h2>Contribuer à la mission</h2></v-col
       >
-      <v-col  cols="12" md="8">
+      <v-col cols="12" md="8">
         <v-card min-height="350">
-          <v-img height="250" src="/contribute/github.jpg"></v-img>
-          <v-card-title> Contribuer au project</v-card-title>
-          <v-card-text>
-            <ul>
-              <li>Gestion et validation des fichiers Excel.</li>
-              <li>
-                Actuellement, la base de données consiste en un fichier Excel,
-                converti manuellement en JSON. Une API respectable serait la
-                bienvenue. 🚀
-              </li>
+          <a href="mailto:mission.covid19.algerie@gmail.com">
+            <v-img height="250" src="/contribute/github.jpg"></v-img>
+            <v-card-title> Contribuer au project</v-card-title>
+            <v-card-text>
+              <ul>
+                <li>Gestion et validation des fichiers Excel.</li>
+                <li>
+                  Actuellement, la base de données consiste en un fichier Excel,
+                  converti manuellement en JSON. Une API respectable serait la
+                  bienvenue. 🚀
+                </li>
 
-              <li>Intégration du plugin i18n. (sur NuxtJs)</li>
-              <li>
-                Une personne faisant du web scrapping
-                <strong>éthique</strong> pour la création d'un feed des
-                dernières informations relatives à l'état sanitaire en Algérie.
-              </li>
-              <li>Visualisation quotidienne des statistiques.</li>
-            </ul>
-          </v-card-text>
+                <li>Intégration du plugin i18n. (sur NuxtJs)</li>
+                <li>
+                  Une personne faisant du web scrapping
+                  <strong>éthique</strong> pour la création d'un feed des
+                  dernières informations relatives à l'état sanitaire en
+                  Algérie.
+                </li>
+                <li>Visualisation quotidienne des statistiques.</li>
+              </ul>
+            </v-card-text>
+          </a>
         </v-card>
       </v-col>
       <v-col cols="12" md="6">
