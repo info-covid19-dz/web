@@ -3,7 +3,14 @@
 </template>
 
 <script>
-export default {};
+import cagnottes from '../static/cagnottes/cagnottes.json'
+export default {
+  data() {
+    return {
+      cagnottes,
+    }
+  },
+};
 </script>
 
 <style  scoped>
