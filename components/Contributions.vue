@@ -70,7 +70,7 @@
         >
           <v-card min-height="350">
             <v-img height="250" src="/contribute/fundraising.jpeg"></v-img>
-            <v-card-title> Ajouter lien vers une cagnotte </v-card-title>
+            <v-card-title> Ajouter un lien vers une cagnotte </v-card-title>
           </v-card></a
         >
       </v-col>
