@@ -76,4 +76,10 @@ export default {
 a {
   text-decoration: none;
 }
+
+.v-card__title {
+  clear: both;
+  text-overflow: ellipsis;
+  white-space:inherit
+}
 </style>

@@ -50,19 +50,6 @@
                   Actuellement, la base de données consiste en un fichier Excel,
                   converti en JSON. Une API respectable serait la bienvenue. 🚀
                 </li>
-                <li>Intégration du plugin i18n. (sur NuxtJs)</li>
-                
-                <li>
-                  Une personne faisant du web scrapping
-                  <strong>éthique</strong> pour la création d'un feed des
-                  dernières informations relatives à l'état sanitaire en
-                  Algérie.
-                </li>
-                <li>Visualisation quotidienne des statistiques.</li>
-                <li>
-                  Tout être humain utilisant NuxtJs ou pouvant apporter quoi que
-                  ce soit à la plateforme.
-                </li>
               </ul>
               <span class="pt-3">
                 <strong>NB 👩‍💻👨‍💻: </strong> le lien du Github sera mis en ligne
