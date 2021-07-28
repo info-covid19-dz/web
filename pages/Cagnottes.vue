@@ -2,9 +2,9 @@
   <v-container>
     <v-row>
       <v-col cols="12" justify="center" align="center">
-        <h1>Cagnottes COVID19</h1>
+        <h2>Cagnottes COVID19</h2>
         <h2>Liste des cagnottes actives</h2>
-        <v-btn class="mb-5" color="primary">
+        <v-btn class="mt-3 mb-5" color="primary">
           <a
             class="dark-link"
             target="_blank"

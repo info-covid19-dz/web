@@ -1,9 +1,9 @@
 <template>
   <div class="mt-3 px-5">
-    <h1 class="mb-5">
+    <h2 class="mb-5">
       Retrouvez tous les numéros concernant la vente et location de
       concentrateurs d'oxygène
-    </h1>
+    </h2>
     <v-btn class="mb-5" color="primary">
       <a class="dark-link"
         target="_blank"
