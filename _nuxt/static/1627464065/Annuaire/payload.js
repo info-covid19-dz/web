@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/annuaire", {data:[{}],fetch:{},mutations:void 0});
