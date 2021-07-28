@@ -4,6 +4,40 @@
       <v-col cols="12" justify="center" align="center">
         <h2>Contribuer à la mission</h2></v-col
       >
+
+      <v-col cols="12" md="6">
+        <a
+          class="dark-link"
+          target="_blank"
+          href="https://docs.google.com/spreadsheets/d/1a4N_yGTUOmGVFRLODbfv6NNJO7hcgdXpayRFSufj1sk/edit?usp=sharing"
+        >
+          <v-card min-height="350">
+            <v-img height="250" src="/contribute/oxy.jpeg"></v-img>
+            <v-card-title>
+              Ajouter un contact pour concentrateurs d'oxygène
+            </v-card-title>
+            <v-card-text>
+              <p class="text-bold">
+                Il est urgent de vérifier et de valider les différents numéros
+                de téléphone actuellement partagés. Nous vous invitons à entrer
+                dans les listes les numéros que vous avez testés et dont vous
+                garantissez la validité.
+              </p></v-card-text
+            >
+          </v-card></a
+        >
+      </v-col>
+      <v-col cols="12" md="6">
+        <a
+          target="_blank"
+          href="https://docs.google.com/spreadsheets/d/1AcwL6weFDq5E3HDi883icvuah-5JFB_Yc0_32-wpX14/edit?usp=sharing"
+        >
+          <v-card min-height="350">
+            <v-img height="250" src="/contribute/fundraising.jpeg"></v-img>
+            <v-card-title> Ajouter un lien vers une cagnotte </v-card-title>
+          </v-card></a
+        >
+      </v-col>
       <v-col cols="12" md="10">
         <v-card min-height="350">
           <a href="mailto:mission.covid19.algerie@gmail.com">
@@ -40,39 +74,6 @@
             </v-card-text>
           </a>
         </v-card>
-      </v-col>
-      <v-col cols="12" md="6">
-        <a
-          class="dark-link"
-          target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1a4N_yGTUOmGVFRLODbfv6NNJO7hcgdXpayRFSufj1sk/edit?usp=sharing"
-        >
-          <v-card min-height="350">
-            <v-img height="250" src="/contribute/oxy.jpeg"></v-img>
-            <v-card-title>
-              Ajouter un contact pour concentrateurs d'oxygène
-            </v-card-title>
-            <v-card-text>
-              <p class="text-bold">
-                Il est urgent de vérifier et de valider les différents numéros
-                de téléphone actuellement partagés. Nous vous invitons à entrer
-                dans les listes les numéros que vous avez testés et dont vous
-                garantissez la validité.
-              </p></v-card-text
-            >
-          </v-card></a
-        >
-      </v-col>
-      <v-col cols="12" md="6">
-        <a
-          target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1AcwL6weFDq5E3HDi883icvuah-5JFB_Yc0_32-wpX14/edit?usp=sharing"
-        >
-          <v-card min-height="350">
-            <v-img height="250" src="/contribute/fundraising.jpeg"></v-img>
-            <v-card-title> Ajouter un lien vers une cagnotte </v-card-title>
-          </v-card></a
-        >
       </v-col>
     </v-row>
   </v-container>
