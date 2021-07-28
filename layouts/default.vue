@@ -34,7 +34,7 @@
       </v-layout>
     </v-app-bar>
     <v-main>
-  
+  <Header></Header>
         <Nuxt />
      
     </v-main>
@@ -45,6 +45,7 @@
 </template>
 
 <script>
+import Header from '../components/Header.vue'
 export default {
   data() {
     return {
@@ -71,6 +72,9 @@ export default {
       title: "Annuaire COVID Algerie",
     };
   },
+  components:{
+    Header
+  }
 };
 </script>
 
