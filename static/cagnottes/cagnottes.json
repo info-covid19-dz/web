@@ -4,20 +4,31 @@
     "Cause": "Solidarité covid-19 Tizi-ouzou",
     "Lien": "https://www.leetchi.com/c/solidarite-covid-19-tizi-ouzou",
     "ModeDeParticipation": "Carte bancaire",
-    "Bénéficiaire": ""
+    "Bénéficiaire": "",
+    "Addresse": ""
   },
   {
     "Nom": "BREATHE Algeria",
     "Cause": "COVID 19 Algérie",
     "Lien": "https://www.paypal.com/pools/c/8BqOmHV0pv",
     "ModeDeParticipation": "Paypal",
-    "Bénéficiaire": ""
+    "Bénéficiaire": "",
+    "Addresse": ""
   },
   {
     "Nom": "AMN - Urgence ALGERIE COVID 19",
     "Cause": "COVID 19 Algérie",
     "Lien": "https://www.helloasso.com/associations/etudiants-et-cadres-algeriens-de-france/collectes/covid-19-algerie?utm_source=user&utm_medium=email-transac&utm_campaign=FORM_ADMIN_ADD_EXISTING_USER&fbclid=IwAR1aW8Mvih-PIi07Hl-5L46PNn3WbLchJx06BnJAK7IjzyJy6T4osbYpI9k",
     "ModeDeParticipation": "Carte bancaire",
-    "Bénéficiaire": "Hôpitaux Algériens"
+    "Bénéficiaire": "Hôpitaux Algériens",
+    "Addresse": ""
+  },
+  {
+    "Nom": "Mission oxygène DZ en collaboration avec SIDRA et MEDSA Al Jazair",
+    "Cause": "COVID 19 Algérie",
+    "Lien": "https://www.instagram.com/p/CR4wN22KpAz/",
+    "ModeDeParticipation": "CCP",
+    "Bénéficiaire": "",
+    "Addresse": "goo.gl/maps/8jUMLpTjz2EdgemFA"
   }
 ]

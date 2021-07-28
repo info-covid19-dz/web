@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="12"  align="center">
+      <v-col cols="12" align="center">
         <h2>Liste des cagnottes actives</h2>
         <v-btn class="mt-3 mb-5" color="primary">
           <a
@@ -20,13 +20,22 @@
         :key="cagnotte.name"
       >
         <a :href="cagnotte.Lien" target="_blank">
-          <v-card style="min-height: 250px" elevation="2" class="px-2" outlined shaped tile>
+          <v-card
+            style="min-height: 250px"
+            elevation="2"
+            class="px-2"
+            outlined
+            shaped
+            tile
+          >
             <v-card-title>{{ cagnotte.Nom }}</v-card-title>
             <ul>
               <li>
                 <span class="text-bold">Bénéficiaire: </span
                 >{{
-                  cagnotte.Bénéficiaire ? cagnotte.Bénéficiaire : "Algériens"
+                  cagnotte.Bénéficiaire
+                    ? cagnotte.Bénéficiaire
+                    : "Patients COVID19"
                 }}
               </li>
               <li>
@@ -36,6 +45,10 @@
                     ? cagnotte.ModeDeParticipation
                     : "/"
                 }}
+              </li>
+              <li v-if="cagnotte.Addresse">
+                <span class="text-bold">Addressse: </span
+                >{{ cagnotte.Addresse }}
               </li>
             </ul>
           </v-card>
