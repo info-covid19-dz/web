@@ -53,7 +53,7 @@
               Ajouter un contact pour concentrateurs d'oxygène
             </v-card-title>
             <v-card-text>
-              <p>
+              <p class="text-bold">
                 Il est urgent de vérifier et de valider les différents numéros
                 de téléphone actuellement partagés. Nous vous invitons à entrer
                 dans les listes les numéros que vous avez testés et dont vous
