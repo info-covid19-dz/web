@@ -34,8 +34,8 @@
                 </li>
               </ul>
               <span class="pt-3">
-                <strong>NB aux 👩‍💻👨‍💻: </strong> le lien du Github sera mis en
-                ligne au plus tôt.</span
+                <strong>NB 👩‍💻👨‍💻: </strong> le lien du Github sera mis en ligne
+                au plus tôt.</span
               >
             </v-card-text>
           </a>
