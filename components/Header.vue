@@ -18,11 +18,7 @@ export default {};
 
 <style  scoped>
 header {
-  background-image: linear-gradient(
-      to right,
-      #8080808e,
-      rgba(255, 255, 255, 0.5)
-    ),
+  background-image:linear-gradient(90deg, rgba(2, 0, 36, 0.671) 0%, rgba(9, 9, 121, 0.774) 35%, rgba(0, 213, 255, 0.658) 100%),
     url("./static/CORONAVIRUS-HEADER.jpg");
   height: 250px;
   width: 100%;
@@ -33,5 +29,6 @@ header {
 
 h1 {
   margin-top: 2em;
+  color:white
 }
 </style>

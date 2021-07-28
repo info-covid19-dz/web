@@ -89,4 +89,8 @@ export default {
 .text-bold{
   font-weight: bold;
 }
+
+h2{
+  color:#fc0335
+}
 </style>
