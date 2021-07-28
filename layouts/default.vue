@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <v-app-bar :clipped-left="clipped" fixed app color="primary" dark>
-      <nuxt-link class="dark-link" to="/">{{ title }}</nuxt-link>
+      <nuxt-link class="dark-link" to="/">Accueil</nuxt-link>
       <v-spacer />
       <v-toolbar-items
         v-for="(item, i) in items"
@@ -16,7 +16,7 @@
       <v-layout class="justify-end hidden-md-and-up">
         <v-menu offset-y>
           <template v-slot:activator="{ on }">
-            <v-btn large icon color="#060606" dark v-on="on">
+            <v-btn large icon color="#ffffff" dark v-on="on">
               <v-icon large> mdi-menu</v-icon>
             </v-btn>
           </template>
