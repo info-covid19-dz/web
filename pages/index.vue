@@ -5,7 +5,7 @@
         <v-col class="my-15" cols="12" md="8">
           <h2>
             Chaque minute compte, il est temps de rassembler les liens,
-            numéros et les addresses les plus utiles aux patients COVID19.
+            numéros et addresses les plus utiles aux patients COVID19.
           </h2>
           <p>
             Aide-nous à regrouper les numéros de telephone valides et les
