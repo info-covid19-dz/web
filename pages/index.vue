@@ -8,7 +8,7 @@
             numéros et addresses les plus utiles aux patients COVID19.
           </h2>
           <p>
-            Aide-nous à regrouper les numéros de telephone valides et les
+            Aide-nous à regrouper les numéros de téléphone valides et les
             cagnottes actives.
           </p>
 
