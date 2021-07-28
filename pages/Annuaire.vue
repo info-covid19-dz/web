@@ -1,10 +1,11 @@
 <template>
   <div class="mt-3 px-5">
+    <h3 class="mb-5">
+      Numéros relatifs à la vente, réparation et location des concentrateurs
+      d'oxygène.
+    </h3>
+
     <v-card>
-      <h3 class="mb-5">
-        Numéros relatifs à la vente, location et réparation des concentrateurs
-        d'oxygène.
-      </h3>
       <v-card-title>
         Annuaire
         <v-spacer></v-spacer>

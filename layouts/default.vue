@@ -40,6 +40,9 @@
     </v-main>
     <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span>
+        <a href="mailto:mission.covid19.algerie@gmail.com">Contact</a></span
+      >
     </v-footer>
   </v-app>
 </template>
@@ -81,7 +84,7 @@ export default {
 
 <style>
 .v-application {
-  font-family: 'Ubuntu', sans-serif !important;
+  font-family: "Ubuntu", sans-serif !important;
 }
 .dark-link {
   padding-inline: 0.5em;
@@ -97,7 +100,17 @@ h2 {
   color: #fc0335;
 }
 
-a{
-    color: black !important;
+a {
+  color: black !important;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  gap: 15px;
 }
 </style>
