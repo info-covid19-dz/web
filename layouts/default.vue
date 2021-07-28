@@ -81,4 +81,8 @@ export default {
   text-decoration: none;
   color: white !important;
 }
+
+.text-bold{
+  font-weight: bold;
+}
 </style>
