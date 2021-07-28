@@ -80,9 +80,8 @@ export default {
 
 
 <style>
-html,
-body {
-  font-family: "Roboto", sans-serif;
+.v-application {
+  font-family: 'Ubuntu', sans-serif !important;
 }
 .dark-link {
   padding-inline: 0.5em;
