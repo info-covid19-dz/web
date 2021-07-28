@@ -32,11 +32,6 @@
           </v-list>
         </v-menu>
       </v-layout>
-
-      <!--  <nuxt-link class="dark-link" to="/annuaire">Annuaire</nuxt-link>
-      <nuxt-link class="dark-link" to="/cagnottes">Cagnottes</nuxt-link>
-      <nuxt-link class="dark-link" to="/tests">Tests</nuxt-link>
-      <nuxt-link class="dark-link" to="/contact">Contact</nuxt-link> -->
     </v-app-bar>
     <v-main>
       <v-container>
@@ -60,10 +55,6 @@ export default {
         {
           title: "Annuaire",
           link: "/annuaire",
-        },
-        {
-          title: "Tests",
-          link: "/tests",
         },
         {
           title: "Cagnottes",
