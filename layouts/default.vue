@@ -8,8 +8,10 @@
         :key="i"
         class="hidden-sm-and-down justify-end"
       >
-        <v-btn text >
-          <nuxtLink  class="dark-link" :to="item.link">{{ item.title }}</nuxtLink></v-btn
+        <v-btn text>
+          <nuxtLink class="dark-link" :to="item.link">{{
+            item.title
+          }}</nuxtLink></v-btn
         >
       </v-toolbar-items>
 
@@ -28,15 +30,13 @@
                 }}</nuxt-link></v-list-item-title
               >
             </v-list-item>
-          
           </v-list>
         </v-menu>
       </v-layout>
     </v-app-bar>
     <v-main>
-  <Header></Header>
-        <Nuxt />
-     
+      <Header></Header>
+      <Nuxt />
     </v-main>
     <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }}</span>
@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import Header from '../components/Header.vue'
+import Header from "../components/Header.vue";
 export default {
   data() {
     return {
@@ -72,25 +72,29 @@ export default {
       title: "Annuaire COVID Algerie",
     };
   },
-  components:{
-    Header
-  }
+  components: {
+    Header,
+  },
 };
 </script>
 
 
 <style>
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
 .dark-link {
   padding-inline: 0.5em;
   text-decoration: none;
   color: white !important;
 }
 
-.text-bold{
+.text-bold {
   font-weight: bold;
 }
 
-h2{
-  color:#fc0335
+h2 {
+  color: #fc0335;
 }
 </style>
