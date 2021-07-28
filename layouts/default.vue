@@ -96,9 +96,6 @@ export default {
   font-weight: bold;
 }
 
-h2 {
-  color: #fc0335;
-}
 
 a {
   color: black !important;
