@@ -3,7 +3,7 @@
     <v-container class="my-6">
       <v-row>
         <v-col cols="12">
-          <h2 class=" text-center my-2 px-2">Liens utiles:</h2>
+          <h2 class="text-center my-2 px-2">Liens utiles</h2>
           <ul>
             <li>
               <nuxt-link to="/annuaire"
