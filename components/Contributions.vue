@@ -77,6 +77,6 @@ export default {};
 <style  scoped>
 a {
   text-decoration: none;
-  color: black;
+  color: black !important;
 }
 </style>

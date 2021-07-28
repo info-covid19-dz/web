@@ -96,4 +96,8 @@ export default {
 h2 {
   color: #fc0335;
 }
+
+a{
+    color: black !important;
+}
 </style>
