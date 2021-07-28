@@ -21,9 +21,9 @@
       :search="search"
     >
       <template v-slot:item.Vérifié="{ item }">
-        <v-chip :color="getColor(item.Vérifié)" dark>
-          {{ item.Vérifié }}
-        </v-chip>
+        <span>
+          {{ item.Vérifié ? item.Vérifié : 'non' }}
+        </span>
       </template>
     </v-data-table>
   </div>
