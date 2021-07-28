@@ -51,10 +51,7 @@
                   converti en JSON. Une API respectable serait la bienvenue. 🚀
                 </li>
                 <li>Intégration du plugin i18n. (sur NuxtJs)</li>
-                <li>
-                  Intégration du feed instagram -à venir- pour les informations
-                  en temps réel.
-                </li>
+                
                 <li>
                   Une personne faisant du web scrapping
                   <strong>éthique</strong> pour la création d'un feed des
