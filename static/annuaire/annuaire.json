@@ -1,11 +1,13 @@
 [
   {
-    "Nom": "Oxy Nursing",
+    "Nom": "Oxynursing",
     "Service": "Location,Vente",
     "Numero": "(0550)930387",
     "Type": "Entreprise",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "injoignable",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "HandiLife",
@@ -13,7 +15,9 @@
     "Numero": "(0770)416069",
     "Type": "Entreprise",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "Le cœur sur la main",
@@ -21,7 +25,9 @@
     "Numero": "(0556)041692",
     "Type": "Association",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "LASO HEALTH",
@@ -29,7 +35,9 @@
     "Numero": "(0556)069882",
     "Type": "Entreprise",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "ALVIE MEDICALE",
@@ -37,7 +45,9 @@
     "Numero": "(0542209229) / (0657457733)",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "CLINICADOM",
@@ -45,7 +55,9 @@
     "Numero": "(0550)939993/ (026103885)",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "",
@@ -53,7 +65,9 @@
     "Numero": "(0556)041692",
     "Type": "Association",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "RESPIDOM",
@@ -61,7 +75,9 @@
     "Numero": "(0560)462454 /(023)113042",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "Sarl hopital a domicile",
@@ -69,7 +85,9 @@
     "Numero": "",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "Surface ProMed",
@@ -77,7 +95,9 @@
     "Numero": "(0782)494609",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "Biopharmacie",
@@ -85,7 +105,9 @@
     "Numero": "(0659)853135",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "Healthcare",
@@ -93,7 +115,9 @@
     "Numero": "(0560)426903/(0550)598010",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "RESPAD",
@@ -101,7 +125,9 @@
     "Numero": "(0560)862318/(0560)108215",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "HETH med",
@@ -109,7 +135,9 @@
     "Numero": "(0555)628506",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "Al Rayane Healthcare",
@@ -117,7 +145,9 @@
     "Numero": "(023)803838",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "Espace de confort medical",
@@ -125,7 +155,9 @@
     "Numero": "(0560)099232/(0560)099230",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "CNIEMEDICAL",
@@ -133,15 +165,19 @@
     "Numero": "(0661)6038515",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "MI HEALTH CARE",
     "Service": "",
-    "Numero": "(0550)598009/(0561)898399",
+    "Numero": "(021)245750",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "oui",
+    "Prix": "",
+    "Disponibilité": "à partir du 16 Août pour les concentrateurs et O2"
   },
   {
     "Nom": "Magh assistance",
@@ -149,7 +185,9 @@
     "Numero": "(0550)453399/(023)237421",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "occupé",
+    "Prix": "",
+    "Disponibilité": ""
   },
   {
     "Nom": "Sante dom",
@@ -157,6 +195,68 @@
     "Numero": "(0560)253807/(023)324520",
     "Type": "",
     "Wilaya": "",
-    "Vérifié": ""
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
+  },
+  {
+    "Nom": "SARL Bouchama",
+    "Service": "",
+    "Numero": "(025)269246",
+    "Type": "",
+    "Wilaya": "Blida",
+    "Vérifié": "",
+    "Prix": "",
+    "Disponibilité": ""
+  },
+  {
+    "Nom": "Conexlog",
+    "Service": "Recherche et Livraison depuis la France",
+    "Numero": "(0561)794434",
+    "Type": "",
+    "Wilaya": "",
+    "Vérifié": "",
+    "Prix": "21,000 DA",
+    "Disponibilité": ""
+  },
+  {
+    "Nom": "Non attribué",
+    "Service": "Vente",
+    "Numero": "(0555)628506",
+    "Type": "",
+    "Wilaya": "Alger, Kouba",
+    "Vérifié": "oui",
+    "Prix": "",
+    "Disponibilité": "non disponible pour le moment"
+  },
+  {
+    "Nom": "Non attribué",
+    "Service": "",
+    "Numero": "(0561)725934",
+    "Type": "",
+    "Wilaya": "Alger Centre",
+    "Vérifié": "occupé",
+    "Prix": "",
+    "Disponibilité": ""
+  },
+  {
+    "Nom": "SARL DH Médical",
+    "Service": "",
+    "Numero": "(023)329191/(0659)304142",
+    "Type": "",
+    "Wilaya": "Douéra",
+    "Vérifié": "oui",
+    "Prix": "",
+    "Disponibilité": "Concentrateurs Disponibles (le 28/07 , 16h), sans barboteur"
+  },
+  {
+    "Nom": "Non attribué",
+    "Service": "location/ Installation",
+    "Numero": "(0549)033771",
+    "Type": "",
+    "Wilaya": "",
+    "Vérifié": "oui",
+    "Prix": "",
+    "Disponibilité": "Non disponible pour le moment"
   }
 ]

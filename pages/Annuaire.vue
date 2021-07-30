@@ -54,6 +54,7 @@ export default {
         { text: "Vérifié", value: "Vérifié", sortable: true },
         { text: "Type", value: "Type" },
         { text: "Service", value: "Service" },
+        {text:"Disponibilité",value:"Disponibilité"}
       ],
       annuaires: annuaire,
     };
