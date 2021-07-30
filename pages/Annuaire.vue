@@ -59,21 +59,11 @@ export default {
         { text: "Wilaya", value: "Wilaya", sortable: true },
         { text: "Addresse", value: "Addresse" },
         { text: "Numero", value: "Numero" },
-        { text: "Vérifié", value: "Vérifié", sortable: true },
         { text: "Service", value: "Service",sortable: true },
         {text:"Disponibilité",value:"Disponibilité",  sortable: true}
       ],
       annuaires: annuaire,
     };
-  },
-  methods: {
-    getColor(verified) {
-      if (verified) {
-        return "green";
-      } else {
-        return "red";
-      }
-    },
   },
   mounted() {},
 };
