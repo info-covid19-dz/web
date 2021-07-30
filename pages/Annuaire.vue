@@ -52,9 +52,8 @@ export default {
         { text: "Addresse", value: "Addresse" },
         { text: "Numero", value: "Numero" },
         { text: "Vérifié", value: "Vérifié", sortable: true },
-        { text: "Type", value: "Type" },
-        { text: "Service", value: "Service" },
-        {text:"Disponibilité",value:"Disponibilité"}
+        { text: "Service", value: "Service",sortable: true },
+        {text:"Disponibilité",value:"Disponibilité",  sortable: true}
       ],
       annuaires: annuaire,
     };
