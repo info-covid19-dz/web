@@ -4,7 +4,15 @@
       Numéros relatifs à la vente, réparation et location des concentrateurs
       d'oxygène.
     </h3>
-
+   <v-btn class="mt-3 mb-5" color="primary">
+          <a
+            class="dark-link"
+            target="_blank"
+              href="https://docs.google.com/spreadsheets/d/1a4N_yGTUOmGVFRLODbfv6NNJO7hcgdXpayRFSufj1sk/edit?usp=sharing"
+          >
+            Ajouter une cagnotte</a
+          ></v-btn
+        >
     <v-card>
       <v-card-title>
         Annuaire

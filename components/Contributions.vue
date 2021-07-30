@@ -6,11 +6,7 @@
       >
 
       <v-col cols="12" md="6">
-        <a
-          class="dark-link"
-          target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1a4N_yGTUOmGVFRLODbfv6NNJO7hcgdXpayRFSufj1sk/edit?usp=sharing"
-        >
+        <nuxt-link class="dark-link" to="/annuaire">
           <v-card min-height="350">
             <v-img height="250" src="/contribute/oxy.jpeg"></v-img>
             <v-card-title>
@@ -24,18 +20,15 @@
                 garantissez la validité.
               </p></v-card-text
             >
-          </v-card></a
+          </v-card></nuxt-link
         >
       </v-col>
       <v-col cols="12" md="6">
-        <a
-          target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1AcwL6weFDq5E3HDi883icvuah-5JFB_Yc0_32-wpX14/edit?usp=sharing"
-        >
+        <nuxt-link target="_blank" to="/cagnottes">
           <v-card min-height="350">
             <v-img height="250" src="/contribute/fundraising.jpeg"></v-img>
             <v-card-title> Ajouter un lien vers une cagnotte </v-card-title>
-          </v-card></a
+          </v-card></nuxt-link
         >
       </v-col>
       <v-col cols="12" md="10">
