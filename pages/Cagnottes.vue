@@ -28,7 +28,7 @@
             shaped
             tile
           >
-            <v-card-title>{{ cagnotte.Nom }}</v-card-title>
+            <v-card-title><span class="card-title">{{ cagnotte.Nom }}</span></v-card-title>
             <ul>
               <li>
                 <span class="text-bold">Bénéficiaire: </span
@@ -39,7 +39,7 @@
                 }}
               </li>
               <li>
-                <span class="text-bold">Mode de participation:</span
+                <span class="text-bold">Mode de participation: </span
                 >{{
                   cagnotte.ModeDeParticipation
                     ? cagnotte.ModeDeParticipation
@@ -80,6 +80,8 @@ a {
 .v-card__title {
   clear: both;
   text-overflow: ellipsis;
-  white-space:inherit
+  white-space:inherit;
+  color:#090839;
+  font-weight: bold;
 }
 </style>
