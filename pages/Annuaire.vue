@@ -4,15 +4,15 @@
       Numéros relatifs à la vente, réparation et location des concentrateurs
       d'oxygène.
     </h3>
-   <v-btn class="mt-3 mb-5" color="primary">
-          <a
-            class="dark-link"
-            target="_blank"
-              href="https://docs.google.com/spreadsheets/d/1a4N_yGTUOmGVFRLODbfv6NNJO7hcgdXpayRFSufj1sk/edit?usp=sharing"
-          >
-            Ajouter une cagnotte</a
-          ></v-btn
-        >
+    <v-btn class="mt-3 mb-5" color="primary">
+      <a
+        class="dark-link"
+        target="_blank"
+        href="https://docs.google.com/spreadsheets/d/1a4N_yGTUOmGVFRLODbfv6NNJO7hcgdXpayRFSufj1sk/edit?usp=sharing"
+      >
+        Ajouter une cagnotte</a
+      ></v-btn
+    >
     <v-card>
       <v-card-title>
         Annuaire
@@ -59,13 +59,24 @@ export default {
         { text: "Wilaya", value: "Wilaya", sortable: true },
         { text: "Addresse", value: "Addresse" },
         { text: "Numero", value: "Numero" },
-        { text: "Service", value: "Service",sortable: true },
-        {text:"Disponibilité",value:"Disponibilité",  sortable: true}
+        { text: "Service", value: "Service", sortable: true },
+        { text: "Disponibilité", value: "Disponibilité", sortable: true },
       ],
       annuaires: annuaire,
     };
   },
-  mounted() {},
+  head() {
+    return {
+      title: "Annuaire",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Annuaire des concentrateurs d'oxygéne disponibles en vente ou en location en Algérie",
+        },
+      ],
+    };
+  },
 };
 </script>
 
