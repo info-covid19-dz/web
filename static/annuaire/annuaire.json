@@ -7,7 +7,8 @@
     "Wilaya": "",
     "Vérifié": "injoignable",
     "Prix": "",
-    "Disponibilité": "Non disponible"
+    "Disponibilité": "Aucune information à ce sujet",
+    "": ""
   },
   {
     "Nom": "HandiLife",
@@ -17,7 +18,8 @@
     "Wilaya": "",
     "Vérifié": "",
     "Prix": "",
-    "Disponibilité": ""
+    "Disponibilité": "",
+    "": ""
   },
   {
     "Nom": "Le cœur sur la main",
@@ -27,7 +29,8 @@
     "Wilaya": "",
     "Vérifié": "",
     "Prix": "5000DA/semaine",
-    "Disponibilité": "Aucun concentrateur disponible pour le moment. Pas de liste d'attente. il faut les appeler pour voir la disponibilité. ils sont informés sur ce qui se passe par rapport à la crise 0540280610 centre d'écoute et d'informations. ils ont besoin de dons."
+    "Disponibilité": "Aucun concentrateur disponible pour le moment. Pas de liste d'attente. Il faut les appeler pour voir la disponibilité. Ils sont informés sur ce qui se passe par rapport à la crise, 0540280610 - centre d'écoute et d'informations. Ils ont besoin de dons.",
+    "": ""
   },
   {
     "Nom": "LASO HEALTH",
@@ -37,37 +40,41 @@
     "Wilaya": "",
     "Vérifié": "",
     "Prix": "",
-    "Disponibilité": ""
+    "Disponibilité": "",
+    "": ""
   },
   {
     "Nom": "ALVIE MEDICALE",
-    "Service": "Maintien a domicile",
+    "Service": "Maintien à domicile",
     "Numero": "(0542209229) / (0657457733)",
     "Type": "",
     "Wilaya": "",
     "Vérifié": "",
     "Prix": "6000 DA/semaine pour les 5l.",
-    "Disponibilité": "rupture de stock"
+    "Disponibilité": "Rupture de stock",
+    "": ""
   },
   {
     "Nom": "CLINICADOM",
     "Service": "Location,Soins médicaux",
     "Numero": "(0550)939993/ (026103885)",
     "Type": "",
-    "Wilaya": "",
+    "Wilaya": "Tizi Ouzou",
     "Vérifié": "",
     "Prix": "",
-    "Disponibilité": ""
+    "Disponibilité": "Rupture de stock",
+    "": ""
   },
   {
     "Nom": "RESPIDOM",
     "Service": "Location,Vente,Soins medicaux et paramedicaux",
     "Numero": "(0560)462454 /(023)113042",
     "Type": "",
-    "Wilaya": "",
-    "Vérifié": "",
+    "Wilaya": "Alger",
+    "Vérifié": "occupé",
     "Prix": "",
-    "Disponibilité": "Non disponible"
+    "Disponibilité": "Tous les Concentrateurs ont été loués. À rappeler (même si parfois leur ligne sature)",
+    "": ""
   },
   {
     "Nom": "Hopital a domicile",
@@ -77,17 +84,19 @@
     "Wilaya": "Toutes les wilayas",
     "Vérifié": "",
     "Prix": "",
-    "Disponibilité": "Non disponible"
+    "Disponibilité": "Non disponible",
+    "": ""
   },
   {
     "Nom": "Surface ProMed",
-    "Service": "",
+    "Service": "Location, Vente",
     "Numero": "(0782)494609",
     "Type": "",
-    "Wilaya": "",
+    "Wilaya": "Boumerdès",
     "Vérifié": "",
-    "Prix": "Location 4000 DA/semaine 5L \n8000 DA/semail 9L \nkit obligatoire à 3700da\nVente 9L à 230,000 DA \n5L à 135,000da",
-    "Disponibilité": ""
+    "Prix": "Location 4000 DA/semaine 5L \n8000 DA/semaine 9L \nkit obligatoire à 3700da\nVente 9L à 230,000 DA \n5L à 135,000da",
+    "Disponibilité": "",
+    "": ""
   },
   {
     "Nom": "Biopharmacie",
@@ -97,7 +106,8 @@
     "Wilaya": "",
     "Vérifié": "oui",
     "Prix": "",
-    "Disponibilité": ""
+    "Disponibilité": "",
+    "": ""
   },
   {
     "Nom": "Healthcare",
@@ -107,37 +117,41 @@
     "Wilaya": "",
     "Vérifié": "",
     "Prix": "",
-    "Disponibilité": ""
+    "Disponibilité": "",
+    "": ""
   },
   {
     "Nom": "RESPAD",
-    "Service": "",
+    "Service": "Vente",
     "Numero": "(0560)862318/(0560)108215",
     "Type": "",
-    "Wilaya": "",
+    "Wilaya": "Alger, Dely Brahim",
     "Vérifié": "",
     "Prix": "",
-    "Disponibilité": ""
+    "Disponibilité": "",
+    "": ""
   },
   {
     "Nom": "Health Med",
-    "Service": "",
+    "Service": "Fournisseur",
     "Numero": "(0555)628506",
     "Type": "",
-    "Wilaya": "",
+    "Wilaya": "Alger, Kouba",
     "Vérifié": "",
     "Prix": "",
-    "Disponibilité": ""
+    "Disponibilité": "",
+    "": ""
   },
   {
     "Nom": "Al Rayane Healthcare",
     "Service": "",
     "Numero": "(023)803838",
     "Type": "",
-    "Wilaya": "",
+    "Wilaya": "Alger, Borj El Kiffan",
     "Vérifié": "",
     "Prix": "5L (2000DZD/jour) \n10L(3500DZD/jour)",
-    "Disponibilité": "Rupture de stock"
+    "Disponibilité": "Rupture de stock",
+    "": ""
   },
   {
     "Nom": "Espace de confort medical",
@@ -147,47 +161,52 @@
     "Wilaya": "",
     "Vérifié": "",
     "Prix": "",
-    "Disponibilité": "Non disponible. Aucune date de prévue"
+    "Disponibilité": "Non disponible. Aucune date de prévue",
+    "": ""
   },
   {
     "Nom": "CNIEMEDICAL",
-    "Service": "",
+    "Service": "Fournisseur de matériaux médicaux",
     "Numero": "(0661)6038515",
     "Type": "",
-    "Wilaya": "",
+    "Wilaya": "Alger, Kouba",
     "Vérifié": "",
     "Prix": "",
-    "Disponibilité": ""
+    "Disponibilité": "Rupture de stock",
+    "": ""
   },
   {
     "Nom": "MI HEALTH CARE",
-    "Service": "",
+    "Service": "Vente",
     "Numero": "(021)245750",
     "Type": "",
-    "Wilaya": "",
+    "Wilaya": "Alger, Beb Ezzouar",
     "Vérifié": "oui",
     "Prix": "",
-    "Disponibilité": "à partir du 16 Août pour les concentrateurs et O2"
+    "Disponibilité": "Nouvel arrivage à partir du 16 Août pour les concentrateurs et O2",
+    "": ""
   },
   {
     "Nom": "Magh assistance",
-    "Service": "",
+    "Service": "Assistance médicale à domicile, transports sanitaires et médicaments",
     "Numero": "(0550)453399/(023)237421",
     "Type": "",
-    "Wilaya": "",
+    "Wilaya": "Alger, Beb Ezzouar",
     "Vérifié": "occupé",
     "Prix": "",
-    "Disponibilité": "Non disponible"
+    "Disponibilité": "Non disponible",
+    "": ""
   },
   {
     "Nom": "Sante dom",
     "Service": "",
     "Numero": "(0560)253807/(023)324520",
     "Type": "",
-    "Wilaya": "",
+    "Wilaya": "Alger, Ouled Fayet",
     "Vérifié": "",
     "Prix": "",
-    "Disponibilité": ""
+    "Disponibilité": "",
+    "": ""
   },
   {
     "Nom": "SARL Bouchama",
@@ -196,8 +215,9 @@
     "Type": "",
     "Wilaya": "Blida",
     "Vérifié": "",
-    "Prix": "",
-    "Disponibilité": ""
+    "Prix": "Rupture de stock, plus de ravitaillement d'oxygène pour le moment",
+    "Disponibilité": "",
+    "": ""
   },
   {
     "Nom": "Conexlog",
@@ -207,7 +227,8 @@
     "Wilaya": "",
     "Vérifié": "",
     "Prix": "21,000 DA",
-    "Disponibilité": ""
+    "Disponibilité": "",
+    "": ""
   },
   {
     "Nom": "Non attribué",
@@ -217,7 +238,8 @@
     "Wilaya": "Alger, Kouba",
     "Vérifié": "oui",
     "Prix": "",
-    "Disponibilité": "non disponible pour le moment"
+    "Disponibilité": "Non disponible pour le moment",
+    "": ""
   },
   {
     "Nom": "Non attribué",
@@ -227,36 +249,51 @@
     "Wilaya": "Alger Centre",
     "Vérifié": "occupé",
     "Prix": "",
-    "Disponibilité": ""
+    "Disponibilité": "",
+    "": ""
   },
   {
     "Nom": "SARL DH Médical",
     "Service": "",
     "Numero": "(023)329191/(0659)304142",
     "Type": "",
-    "Wilaya": "Douéra",
+    "Wilaya": "Alger, Douéra",
     "Vérifié": "oui",
     "Prix": "",
-    "Disponibilité": "Concentrateurs Disponibles (le 28/07 , 16h), sans barboteur"
+    "Disponibilité": "Concentrateurs sans barboteur.",
+    "": "Rupture de Stock, Arrivage : au courant de la semaine."
   },
   {
     "Nom": "Inconnu",
-    "Service": "location/ Installation",
+    "Service": "Location et Installation",
     "Numero": "(0549)033771",
     "Type": "",
     "Wilaya": "",
     "Vérifié": "oui",
     "Prix": "",
-    "Disponibilité": "Non disponible pour le moment"
+    "Disponibilité": "Non disponible pour le moment",
+    "": ""
   },
   {
     "Nom": "Inconnu",
-    "Service": "location/ Installation",
+    "Service": "Location et Installation",
     "Numero": "‪(023) 80 38 38‬",
     "Type": "",
     "Wilaya": "",
     "Vérifié": "",
     "Prix": "",
-    "Disponibilité": ""
+    "Disponibilité": "",
+    "": ""
+  },
+  {
+    "Nom": "123medical.pro",
+    "Service": "Vente et livraison",
+    "Numero": "(0783)267383",
+    "Type": "",
+    "Wilaya": "Alger, Béni Messous",
+    "Vérifié": "",
+    "Prix": "Pas de disponibilité. Arrivage probable dès la semaine prochaine.",
+    "Disponibilité": "",
+    "": ""
   }
 ]
