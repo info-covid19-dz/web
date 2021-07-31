@@ -7,6 +7,14 @@ export default {
     id: "G-W47ZYKL84K",
     debugView: true
   },
+  axios: {
+    baseURL:"http://covid-info-algerie-api.herokuapp.com",
+    credentials: false,
+    proxy: true
+  },
+  proxy:{
+  '/api/' : 'http://covid-info-algerie-api.herokuapp.com'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "Info Covid19 Algerie",
@@ -47,7 +55,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxtjs/axios','@nuxtjs/proxy'],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
