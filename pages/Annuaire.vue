@@ -79,11 +79,11 @@ export default {
     };
   },
   mounted(){
-    /*
+
     this.$axios.get("/api/oxygen").then(resp=>{
       this.annuaires = resp.data
     })
-    */
+
 
   }
 };

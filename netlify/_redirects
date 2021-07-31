@@ -1,0 +1,1 @@
+/api/*  http://covid-info-algerie-api.herokuapp.com/api/:splat  200
