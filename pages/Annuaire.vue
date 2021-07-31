@@ -79,7 +79,7 @@ export default {
     };
   },
   mounted(){
-    this.$axios.get("/api/oxygen").then(resp=>{
+    this.$axios.get("http://covid-info-algerie-api.herokuapp.com/api/oxygen").then(resp=>{
       this.annuaires = resp.data
     })
   }
