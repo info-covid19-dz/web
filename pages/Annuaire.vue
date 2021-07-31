@@ -44,7 +44,7 @@
 </template>
 
 <script>
-
+import annuaire from "../static/annuaire/annuaire.json";
 
 export default {
   data() {
@@ -63,7 +63,7 @@ export default {
         { text: "Service", value: "Service", sortable: true },
         { text: "Disponibilité", value: "Disponibilité", sortable: true },
       ],
-      annuaires: [],
+      annuaires: annuaire,
     };
   },
   head() {
@@ -79,9 +79,12 @@ export default {
     };
   },
   mounted(){
+    /*
     this.$axios.get("/api/oxygen").then(resp=>{
       this.annuaires = resp.data
     })
+    */
+
   }
 };
 </script>
