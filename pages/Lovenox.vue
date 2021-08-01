@@ -1,19 +1,17 @@
 <template>
   <div class="mt-3 px-5">
     <h3 class="mb-5">
-      Numéros relatifs à la vente, réparation et location des concentrateurs
-      d'oxygène.
+      Pharmacies qui vendent Lovenox
     </h3>
-    <!--
     <v-btn class="mt-3 mb-5" color="primary">
       <a
         class="dark-link"
         target="_blank"
-        href="https://docs.google.com/spreadsheets/d/1a4N_yGTUOmGVFRLODbfv6NNJO7hcgdXpayRFSufj1sk/edit?usp=sharing"
+        href="https://docs.google.com/spreadsheets/d/1qB3V0aB7u8KICw0G3x78-r3J1MVxSQgConeONS9j8Iw/edit?usp=sharing"
       >
-        Ajouter un contacte</a
+        Ajouter une pharmacie</a
       ></v-btn
-    >-->
+    >
     <br/>
     <div class = "d-flex justify-center">
       <v-progress-circular
@@ -25,7 +23,7 @@
     </div>
     <v-card v-if = "isLoaded">
       <v-card-title>
-        Annuaire Oxygène
+        Annuaire
         <v-spacer></v-spacer>
         <v-text-field
           v-model="search"
@@ -41,7 +39,6 @@
         :items="annuaires"
         :items-per-page="15"
         class="elevation-1"
-        :item-class="itemRowBackground"
         :search="search"
       >
         <template v-slot:item.Vérifié="{ item }">
@@ -55,7 +52,7 @@
 </template>
 
 <script>
-import annuaire from "../static/annuaire/annuaire.json";
+
 
 export default {
   data() {
@@ -73,56 +70,32 @@ export default {
           sortable: false,
           value: "Nom",
         },
-        { text: "Type", value: "Type" },
-        { text: "Adresse", value: "Adresse" },
-        { text: "Numéro", value: "Numéro" },
-        { text: "Service", value: "Service", sortable: true },
-        { text: "Détails", value: "Détails", sortable: true },
+        { text: "Wilaya", value: "Wilaya", sortable: true },
+        { text: "Addresse", value: "Addresse" },
+        { text: "Numero", value: "Numero" },
+        { text: "Remarques", value: "Remarques", sortable: true },
+
       ],
       annuaires: null,
     };
   },
   head() {
     return {
-      title: "Annuaire",
+      title: "Annuaire Lovenox",
       meta: [
         {
           hid: "description",
           name: "description",
-          content: "Annuaire des concentrateurs d'oxygéne disponibles en vente ou en location en Algérie",
+          content: "Annuaire des pharmacies qui vendent Lovenox en Algerie",
         },
       ],
     };
   },
-  methods:{
-    sortRecords(data){
-      let assoc = data.filter((el)=>{return el.Type == "Association"});
-      let entrep = data.filter((el)=>{return el.Type == "Entreprise"});
-      let para = data.filter((el)=>{return el.Type=="Parapharmacie"});
-      let others = data.filter((el)=>{return el.Type == "Autres"})
-      let sorted = assoc.concat(para,entrep,others)
-      console.log(sorted)
-      return sorted
-    },
-    itemRowBackground(item) {
-      switch (item.Type) {
-        case "Association":
-          return "blue lighten-4";
-          break;
-        case "Parapharmacie":
-          return "indigo lighten-4";
-          break;
-        case "Entreprise":
-          return "green lighten-4";
-          break;
-      }
-    }
-  },
   mounted(){
 
-    this.$axios.get("/api/oxygen").then(resp=>{
+    this.$axios.get("/api/lovenox").then(resp=>{
       if(resp.status == 200){
-        this.annuaires = this.sortRecords(resp.data)
+        this.annuaires = resp.data.reverse()
         this.isLoaded = true
         this.error.show = false
       }
